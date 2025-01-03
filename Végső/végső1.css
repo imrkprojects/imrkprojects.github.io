@@ -65,6 +65,14 @@ main {
     width: 100%;
 }
 
+.about-section ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block; /* Centers the list content */
+}
+
 .content-columns {
     display: flex;
     justify-content: space-around;
